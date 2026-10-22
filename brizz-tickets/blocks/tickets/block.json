@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "brizz/tickets",
+  "version": "1.0.0",
+  "title": "Brizz Tickets",
+  "category": "widgets",
+  "icon": "tickets-alt",
+  "description": "Your Brizz event cards with the checkout, on this page.",
+  "keywords": [ "tickets", "events", "brizz", "checkout" ],
+  "textdomain": "brizz-tickets",
+  "attributes": {
+    "source": { "type": "string", "default": "default" },
+    "uuid":   { "type": "string", "default": "" },
+    "uuids":  { "type": "string", "default": "" },
+    "mode":   { "type": "string", "default": "" },
+    "label":  { "type": "string", "default": "" }
+  },
+  "supports": {
+    "html": false,
+    "align": [ "wide", "full" ]
+  },
+  "editorScript": "file:./editor.js",
+  "editorStyle": "file:./editor.css"
+}

@@ -1,0 +1,25 @@
+.brizz-tickets-editor {
+	border: 1.5px dashed #6813a5;
+	border-radius: 12px;
+	padding: 16px 18px;
+	background: rgba(104, 19, 165, 0.04);
+	color: #1f1f1f;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.brizz-tickets-editor__title {
+	display: block;
+	color: #6813a5;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.brizz-tickets-editor__what {
+	font-size: 14px;
+}
+
+.brizz-tickets-editor__hint {
+	margin-top: 6px;
+	font-size: 12px;
+	color: #666;
+}

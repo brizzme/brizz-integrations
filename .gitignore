@@ -1,0 +1,7 @@
+# No lockfile is committed in any Brizz repo (brizz_stack/CLAUDE.md,
+# "Lockfiles are NOT committed"); installs resolve from composer.json.
+composer.lock
+/vendor/
+/dist/
+/.phpunit.cache/
+.DS_Store
