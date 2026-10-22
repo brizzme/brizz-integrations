@@ -21,6 +21,8 @@ Sell tickets for your Brizz events on your own WordPress site — a block and a 
 
 No account data is stored in WordPress — the plugin keeps one setting (which organiser or event to show by default).
 
+Full guide, with the two-line snippet for sites that are not WordPress: https://brizz.me/host-an-event/your-website
+
 == Installation ==
 
 1. Upload the plugin and activate it.
