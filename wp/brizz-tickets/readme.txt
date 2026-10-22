@@ -25,11 +25,13 @@ Full guide, with the two-line snippet for sites that are not WordPress: https://
 
 == Installation ==
 
-1. Upload the plugin and activate it.
-2. On brizz.me, open **My Events → Embed on your site**. Add your site's domain to the site list (the plugin's settings page shows you the exact host to add), and copy the snippet.
-3. In WordPress, open **Settings → Brizz Tickets** and paste the snippet. The plugin keeps only the id inside it.
-4. Add the **Brizz Tickets** block where the tickets should appear — or the shortcode `[brizz_tickets]` in any editor.
-5. Open the published page. You should see your event cards; tapping one opens the checkout.
+1. Download `brizz-tickets-<version>.zip` from the newest "wp-v…" release at https://github.com/brizzme/brizz-integrations/releases (or install from the WordPress.org directory when listed). Leave it zipped.
+2. In WordPress admin: **Plugins → Add New → Upload Plugin → Choose File** → the zip → **Install Now**, then **Activate Plugin**. "Brizz Tickets" appears under Settings.
+3. On brizz.me, signed in as the organiser: **My Events → Embed on your site**. Under "Tell us where it will appear", add your site's domain — **Settings → Brizz Tickets** in WordPress shows the exact host(s) to add (`www.example.com` and `example.com` are two different entries). Then copy the snippet.
+4. In WordPress: **Settings → Brizz Tickets**, paste the snippet, **Save Changes**. The page now says "All your upcoming events" (or "One event"). The plugin keeps only the id inside the snippet.
+5. Edit the page where the tickets should appear and add the **Brizz Tickets** block — or `[brizz_tickets]` in any editor (Elementor's Shortcode widget, Divi, WPBakery, the classic editor). Update.
+6. Open the published page. Your event cards appear; tapping one opens the Brizz checkout on top of the page. In the editor you only see a placeholder — that is expected.
+7. If it says "Tickets are currently unavailable", the domain is not listed yet: the Embed page's "Seen on your sites" names it — click Allow and reload.
 
 == Frequently Asked Questions ==
 
